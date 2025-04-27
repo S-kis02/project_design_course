@@ -5,6 +5,10 @@ a, h1, p, h3, h2{
     font-weight: 300;
     font-style: normal;
   }
+html {
+    background-color: rgba(10, 7, 13, 1);
+    scroll-behavior: smooth;
+}
 p {
     font-size: 20px;
 }
@@ -31,4 +35,76 @@ h1 {
     font-size: 50px;
     margin: 0;
     font-weight: 400;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85px;
+    width: 530px;
+    border: 1px;
+    border-radius: 70px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgb(255, 255, 255);
+    backdrop-filter: blur(11px);
+}
+.description {
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+button {
+    font-size: 30px;
+    width: 289px;
+    height: 57px;
+    border: 0;
+    background-color: rgba(85, 0, 142, 1);
+    border-radius: 15px;
+    color: white;
+}
+button:hover {
+    background-color: rgb(58, 0, 96);
+}
+#cover{
+    background-image: url(./images/cover.png);
+    background-size: cover;
+    height: 763px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.about-us-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 400;
+}
+p {
+    color: white;
+}
+h3 {
+    color: white;
+    font-size: 24px;
+}
+.text {
+    font-size: 24px;
+    color: white;
+}
+.my {
+    border-radius: 35px;
+}
+.about-us-text{
+    margin-left: 19px;
+    font-family: sans-serif;
+}
+.about-me{
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
 }
