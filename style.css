@@ -108,3 +108,21 @@ h3 {
     display: flex;
     justify-content: center;
 }
+#Tariffs{
+    height: 1067px;
+}
+.basics{
+    width: 364px;
+    margin-top: 75px;
+}
+.average{
+    margin-top: 67px;
+    width: 364px;
+}
+.pro {
+    width: 364px;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
