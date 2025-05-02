@@ -203,3 +203,45 @@ input{
 .blog_card_button{
     width: 364px;
 }
+#contact {
+    padding-top: 72px;
+    padding-bottom: 90px;
+    background-color: rgba(5, 3, 6, 1);
+    display: flex;
+    justify-content: center;
+}
+.inf_contact{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.contact_button{
+   width: 364px;
+   margin-top: 47px;
+}
+.contact_text{
+    font-size: 20px;
+    margin: 15px;
+}
+.our_contact{
+    font-size: 75px;
+}
+#end{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 61px;
+}
+.img_end{
+    margin-right: 43px;
+}
+.contact_end{
+    margin-right: 616px;
+}
+.end_nav{
+    display: flex;
+    flex-direction: column;
+}
+.punct_end{
+    margin-bottom: 17px;
+}
